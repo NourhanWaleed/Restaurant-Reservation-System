@@ -9,9 +9,7 @@ import javafx.stage.Stage;
 import javafx.scene.control.Button;
 import javafx.event.ActionEvent;
 import javafx.geometry.Insets;
-import pack.Restaurant;
-import pack.User;
-import pack.Users;
+import Data.*;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -21,10 +19,6 @@ import static javax.xml.bind.JAXBContext.newInstance;
 
 public class gui extends Application {
     Restaurant restaurant;
-
-    public static void main(String[] args) {
-        launch(args);
-    }
 
     @Override
     public void start(Stage primaryStage) throws Exception {

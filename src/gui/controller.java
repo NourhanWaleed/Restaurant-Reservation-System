@@ -1,7 +1,7 @@
 package gui;
 
 import javafx.fxml.Initializable;
-import pack.Restaurant;
+import Data.Restaurant;
 
 import java.net.URL;
 import java.util.ResourceBundle;
