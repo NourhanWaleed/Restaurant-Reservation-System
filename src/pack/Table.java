@@ -1,4 +1,4 @@
-/*package pack;
+package pack;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -45,4 +45,3 @@ public class Table {
         this.smoking = smoking;
     }
 }
-*/

@@ -54,7 +54,11 @@ public User(){};
 
     public void setPassword(String password) {
         this.password = password;
+
     }
 
-
+    @Override
+    public String toString() {
+        return "Role: "+this.role+" Name: " + this.name+" UserName: "+this.username+" Password: "+this.password;
+    }
 }
