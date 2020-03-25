@@ -1,4 +1,4 @@
-package pack;
+package Data;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -16,13 +16,6 @@ public class User {
     private String username;
     @XmlElement(name="password")
     private String password;
-public User(){};
-    public User(String name, String role, String username, String password) {
-        this.name = name;
-        this.role = role;
-        this.username = username;
-        this.password = password;
-    }
 
     public String getName() {
         return name;

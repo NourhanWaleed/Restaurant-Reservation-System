@@ -1,4 +1,4 @@
-/*package pack;
+package Data;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -19,4 +19,4 @@ public class Dishes {
     public void setDishes(List<Dish> dishes) {
         this.dishes = dishes;
     }
-}*/
+}

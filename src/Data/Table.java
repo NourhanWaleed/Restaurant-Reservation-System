@@ -1,4 +1,4 @@
-/*package pack;
+package Data;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -14,12 +14,6 @@ public class Table {
     int number_of_seats;
     @XmlElement(name="smoking")
     boolean smoking;
-
-    public Table(int number, int number_of_seats, boolean smoking) {
-        this.number = number;
-        this.number_of_seats = number_of_seats;
-        this.smoking = smoking;
-    }
 
     public int getNumber() {
         return number;
@@ -45,4 +39,3 @@ public class Table {
         this.smoking = smoking;
     }
 }
-*/
