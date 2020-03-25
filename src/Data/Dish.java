@@ -1,4 +1,4 @@
-/*package pack;
+package Data;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -6,6 +6,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name= "dish")
+@XmlAccessorType(XmlAccessType.FIELD)
 public class Dish {
     @XmlElement(name="name")
     private String name;
@@ -13,12 +14,6 @@ public class Dish {
     private double price;
     @XmlElement(name="type")
     private String type;
-
-    public Dish(String name, double price, String type) {
-        this.name = name;
-        this.price = price;
-        this.type = type;
-    }
 
     public String getName() {
         return name;
@@ -44,4 +39,3 @@ public class Dish {
         this.type = type;
     }
 }
-*/

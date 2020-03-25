@@ -1,4 +1,4 @@
-package pack;
+package Data;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
@@ -20,3 +20,4 @@ public class Users {
         this.users = users;
     }
 }
+
