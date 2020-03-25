@@ -18,9 +18,7 @@ import java.io.File;
 import static javax.xml.bind.JAXBContext.newInstance;
 
 public class gui extends Application {
-    Restaurant restaurant;
-
-    @Override
+    Restaurant restaurant;@Override
     public void start(Stage primaryStage) throws Exception {
         initializeXml();
         loginWindow(primaryStage);
@@ -67,7 +65,7 @@ public class gui extends Application {
         System.out.println("hi");
     }
 
-    private void initializeXml() throws JAXBException {
+    public void initializeXml() throws JAXBException {
         JAXBContext jaxbcontext = newInstance(Restaurant.class);
         Unmarshaller unmarshaller = jaxbcontext.createUnmarshaller();
         restaurant = (Restaurant) unmarshaller.unmarshal(new File("C:\\Users\\user\\IdeaProjects\\progproject2\\src\\pack\\input.xml"));
